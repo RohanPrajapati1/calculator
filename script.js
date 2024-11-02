@@ -12,6 +12,7 @@ arr.forEach(button =>{
             string = eval(string);
             display.innerHTML = string;
         }else if(e.target.innerHTML == 'AC'){
+            string = '';
             display.innerHTML = '0';
         }
 
